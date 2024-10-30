@@ -26,7 +26,6 @@ int main() {
     int m = 3, n = 3;
     int gridValues[3][3] = {{1, 2, 3}, {0, 6, 1}, {4, 5, 9}};
 
-    
     int* grid[m];
     for (int i = 0; i < m; i++) {
         grid[i] = gridValues[i];
